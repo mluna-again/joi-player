@@ -6,8 +6,8 @@ function SongInLibrary(props) {
     return <div className="song-in-library">
         <div className="song-container">
             <img className="cover" alt="cover" src={cover}/>
-            <div>
-                <h3 className="title">{title}</h3>
+            <div className="info-container">
+                <h3 className="title">{breakText(title)}</h3>
                 <p className="artist">{artist}</p>
             </div>
         </div>
@@ -16,3 +16,9 @@ function SongInLibrary(props) {
 }
 
 export default SongInLibrary
+
+function breakText(text) {
+    const length = 15
+    const textBroke = text.slice(0, length)
+    return `${textBroke}${textBroke.length >= length ? '...' : ''}`
+}
