@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SongInLibrary from "./SongInLibrary";
 
 function Library(props) {
-    const {songs, setSongHandler} = props
+    const {songs, setSongHandler, currentSong} = props
     const [isLibraryDisplayed, setIsLibraryDisplayed] = useState(false)
 
     return <div className={`library ${isLibraryDisplayed ? 'show' : ''}`}>
@@ -15,7 +15,7 @@ function Library(props) {
         <h1 className="title">Tracks</h1>
         <ul className="list">
             {
-                songs.map(song => <SongInLibrary key={song.uuid}
+                songs.map(song => <SongInLibrary key={song.uuid} isPlaying={currentSong === song}
                                                  setSongHandler={() => setSongHandler(song)}
                                                  title={song.name} artist={song.artist}
                                                  cover={song.cover}/>)

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="add more songs">
+    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="fix Library and SongInLibrary UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Library.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SongInLibrary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SongInLibrary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/_library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_library.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_song-in-library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_song-in-library.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <workItem from="1608480887507" duration="17017000" />
       <workItem from="1608506605363" duration="7376000" />
       <workItem from="1608669185584" duration="2827000" />
-      <workItem from="1608672584328" duration="2482000" />
+      <workItem from="1608672584328" duration="3932000" />
     </task>
     <task id="LOCAL-00001" summary="add playHandler to Song component">
       <created>1608405107185</created>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608674559422</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix Library and SongInLibrary UI">
+      <created>1608675432961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608675432961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +212,8 @@
     <MESSAGE value="add custom scrollbar" />
     <MESSAGE value="add setSongHandler to SongInLibrary" />
     <MESSAGE value="add more songs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more songs" />
+    <MESSAGE value="fix Library and SongInLibrary UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Library and SongInLibrary UI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

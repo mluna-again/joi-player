@@ -32,7 +32,7 @@ function App() {
 
 
     return <div className="container">
-        <Library songs={data} setSongHandler={setSongHandler}/>
+        <Library songs={data} setSongHandler={setSongHandler} currentSong={currentSong}/>
         <Song song={{currentSong, nextSongHandler, prevSongHandler}}/>
     </div>
 }

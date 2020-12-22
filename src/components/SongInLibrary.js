@@ -2,8 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 function SongInLibrary(props) {
-    const {title, artist, cover, setSongHandler} = props
-    return <div className="song-in-library">
+    const {title, artist, cover, setSongHandler, isPlaying} = props
+    return <div className={`song-in-library ${isPlaying ? 'playing' : ''}`}>
         <div className="song-container">
             <img className="cover" alt="cover" src={cover}/>
             <div className="info-container">
