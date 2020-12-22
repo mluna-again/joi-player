@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="add custom scrollbar" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lqbY3IYa7eKpsKpZgsf339B5rB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="" />
+      <created>1608327616697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608327616697</updated>
+      <workItem from="1608327618189" duration="900000" />
+      <workItem from="1608328626727" duration="66000" />
+      <workItem from="1608328717086" duration="79000" />
+      <workItem from="1608328811522" duration="817000" />
+      <workItem from="1608329649153" duration="18000" />
+      <workItem from="1608329681780" duration="51000" />
+      <workItem from="1608329749983" duration="344000" />
+      <workItem from="1608330109696" duration="38000" />
+      <workItem from="1608330164597" duration="288000" />
+      <workItem from="1608330469266" duration="99000" />
+      <workItem from="1608330581995" duration="97000" />
+      <workItem from="1608330692419" duration="474000" />
+      <workItem from="1608331183633" duration="409000" />
+      <workItem from="1608331609434" duration="498000" />
+      <workItem from="1608332125002" duration="193000" />
+      <workItem from="1608332334137" duration="1363000" />
+      <workItem from="1608334652396" duration="39000" />
+      <workItem from="1608334712811" duration="6310000" />
+      <workItem from="1608353241841" duration="1355000" />
+      <workItem from="1608357647951" duration="28000" />
+      <workItem from="1608357692196" duration="4202000" />
+      <workItem from="1608403598392" duration="5239000" />
+      <workItem from="1608480887507" duration="17017000" />
+      <workItem from="1608506605363" duration="7376000" />
+      <workItem from="1608669185584" duration="2827000" />
+    </task>
+    <task id="LOCAL-00001" summary="add playHandler to Song component">
+      <created>1608405107185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608405107185</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix double audio">
+      <created>1608406058250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608406058250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="timeline now works">
+      <created>1608491389968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608491389968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implements textSongHandler">
+      <created>1608493669136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608493669136</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix bug where last song throws and error when trying to skip it">
+      <created>1608497705941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608497705941</updated>
+    </task>
+    <task id="LOCAL-00006" summary="make next song play when the current ends">
+      <created>1608498146085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608498146085</updated>
+    </task>
+    <task id="LOCAL-00007" summary="just refactoring">
+      <created>1608506493764</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608506493764</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add Library.js">
+      <created>1608508276118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608508276119</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add hover effect to menu svg">
+      <created>1608508561609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608508561609</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add SongInLibrary.js component">
+      <created>1608509644615</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608509644615</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add custom scrollbar">
+      <created>1608523777974</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608523777974</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add playHandler to Song component" />
+    <MESSAGE value="fix double audio" />
+    <MESSAGE value="timeline now works" />
+    <MESSAGE value="implements textSongHandler" />
+    <MESSAGE value="fix bug where last song throws and error when trying to skip it" />
+    <MESSAGE value="make next song play when the current ends" />
+    <MESSAGE value="just refactoring" />
+    <MESSAGE value="add Library.js" />
+    <MESSAGE value="add hover effect to menu svg" />
+    <MESSAGE value="add SongInLibrary.js component" />
+    <MESSAGE value="add custom scrollbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom scrollbar" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
