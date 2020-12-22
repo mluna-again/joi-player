@@ -26,7 +26,8 @@ function App() {
         setIndex(index - 1)
     }
     const setSongHandler = (song) => {
-        console.log(song)
+        setCurrentSong(song)
+        setIndex(data.indexOf(song))
     }
 
 

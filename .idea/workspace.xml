@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="add custom scrollbar" />
+    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="add custom scrollbar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SongInLibrary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SongInLibrary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +81,7 @@
       <workItem from="1608480887507" duration="17017000" />
       <workItem from="1608506605363" duration="7376000" />
       <workItem from="1608669185584" duration="2827000" />
+      <workItem from="1608672584328" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="add playHandler to Song component">
       <created>1608405107185</created>

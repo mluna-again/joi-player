@@ -15,7 +15,8 @@ function Library(props) {
         <h1 className="title">Tracks</h1>
         <ul className="list">
             {
-                songs.map(song => <SongInLibrary onClick={() => setSongHandler(song)}
+                songs.map(song => <SongInLibrary key={song.uuid}
+                                                 setSongHandler={() => setSongHandler(song)}
                                                  title={song.name} artist={song.artist}
                                                  cover={song.cover}/>)
             }
