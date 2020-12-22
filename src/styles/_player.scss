@@ -1,0 +1,42 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: min-content;
+  margin: 2rem 0;
+
+  .time {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 2rem 0;
+
+    input {
+      width: 100%;
+      margin: 0 1rem;
+      padding: 1rem 0;
+    }
+
+    p {
+      margin: 0 2rem;
+    }
+  }
+}
+
+.controls {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+
+  svg {
+    cursor: pointer;
+    transition: color .5s;
+  }
+
+  svg:hover {
+    color: crimson;
+  }
+}

@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
+import Song from "./components/Song";
+import fetchData from "./data";
+import Library from "./components/Library";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    const [data] = useState(fetchData())
+    const [currentSong, setCurrentSong] = useState(data[0])
+    const [index, setIndex] = useState(0)
+    const nextSongHandler = () => {
+        if (index >= data.length - 1) {
+            setCurrentSong(data[0])
+            setIndex(0)
+            return
+        }
+        setCurrentSong(data[index + 1])
+        setIndex(index + 1)
+    }
+    const prevSongHandler = () => {
+        if (index <= 0) {
+            setIndex(data.length - 1)
+            setCurrentSong(data[data.length - 1])
+            return
+        }
+        setCurrentSong(data[index - 1])
+        setIndex(index - 1)
+    }
+    const setSongHandler = (song) => {
+        console.log(song)
+    }
+
+
+    return <div className="container">
+        <Library songs={data} setSongHandler={setSongHandler}/>
+        <Song song={{currentSong, nextSongHandler, prevSongHandler}}/>
     </div>
-  );
 }
 
 export default App;
