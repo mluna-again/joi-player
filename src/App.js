@@ -7,6 +7,7 @@ function App() {
     const [isLibraryDisplayed, setIsLibraryDisplayed] = useState(false)
     const [data] = useState(fetchData())
     const [currentSong, setCurrentSong] = useState(shuffle(data))
+    const [isPlaying, setIsPlaying] = useState(false)
     const [index, setIndex] = useState(0)
     const nextSongHandler = () => {
         if (index >= data.length - 1) {
@@ -37,7 +38,8 @@ function App() {
                  isLibraryDisplayed={isLibraryDisplayed}
                  setIsLibraryDisplayed={setIsLibraryDisplayed}/>
         <Song song={{currentSong, nextSongHandler, prevSongHandler}}
-              isLibraryDisplayed={isLibraryDisplayed}/>
+              isLibraryDisplayed={isLibraryDisplayed} isPlaying={isPlaying}
+              setIsPlaying={setIsPlaying}/>
     </div>
 }
 

@@ -6,7 +6,7 @@ function Player(props) {
     const {song, next: nextSongHandler, prev: prevSongHandler} = props
     const audio = useRef(null)
 
-    const [isPlaying, setIsPlaying] = useState(false)
+    const {isPlaying, setIsPlaying} = props
     const [songInfo, setSongInfo] = useState({
         startTime: null,
         endTime: null
@@ -43,7 +43,7 @@ function Player(props) {
     useEffect(() => {
         audio.current.play()
         setIsPlaying(true)
-    }, [song])
+    }, [song, setIsPlaying])
 
     return <div className="player">
         <div className="time">
@@ -51,7 +51,8 @@ function Player(props) {
             <div className="track-container">
                 <div className="thumb"/>
                 <div className="thumb-progress"
-                     style={{transform: `translateY(-50%) translateX(${percentage}%)`}}/>
+                    // the 99 instead of 100 is for a little offset
+                     style={{transform: `translateY(-50%) translateX(${-99 + percentage}%)`}}/>
                 <input max="100" type="range" value={percentage || 0}
                        onChange={timeChangeHandler}/>
             </div>

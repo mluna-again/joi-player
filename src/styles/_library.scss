@@ -43,3 +43,44 @@
     box-shadow: 10px 5px 5px #000;
   }
 }
+
+// MEDIA QUERIES
+@media screen and (max-width: 900px) {
+  .library {
+    min-width: 100%;
+
+    .menu-container {
+      top: 0;
+      z-index: 100;
+
+      svg:hover {
+        color: white;
+      }
+
+      svg:focus {
+        color: white;
+      }
+    }
+
+    &.show .menu-container {
+      right: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .library {
+    .menu-container {
+      top: 3px;
+      right: calc(-10% - 3rem);
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .library {
+    .menu-container {
+      top: 3px;
+    }
+  }
+}

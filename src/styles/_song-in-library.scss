@@ -47,3 +47,15 @@
 .playing {
   background-color: #a41430;
 }
+
+@media screen and (max-width: 600px) {
+  .song-in-library {
+    .title {
+      font-size: 1.3rem;
+    }
+
+    .artist {
+      font-size: 1rem;
+    }
+  }
+}

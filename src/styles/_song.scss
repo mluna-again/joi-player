@@ -23,7 +23,37 @@
     border-radius: 100%;
   }
 
+  .spin {
+    animation: spin 10s infinite linear;
+  }
+
   .artist {
     margin: 1rem 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 768px) {
+  .song {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .song {
+    width: 100%;
+
+    .picture {
+      width: 50%;
+    }
   }
 }
