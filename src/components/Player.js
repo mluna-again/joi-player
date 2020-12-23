@@ -48,8 +48,13 @@ function Player(props) {
     return <div className="player">
         <div className="time">
             <p className="start">{convertToTime(startTime)}</p>
-            <input max="100" type="range" value={percentage || 0}
-                   onChange={timeChangeHandler}/>
+            <div className="track-container">
+                <div className="thumb"/>
+                <div className="thumb-progress"
+                     style={{transform: `translateY(-50%) translateX(${percentage}%)`}}/>
+                <input max="100" type="range" value={percentage || 0}
+                       onChange={timeChangeHandler}/>
+            </div>
             <p className="end">-{convertToTime(endTime)}</p>
         </div>
         <div className="controls">

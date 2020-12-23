@@ -3,7 +3,7 @@ import Player from "./Player";
 function Song(props) {
     const {name, artist, cover, audio} = props.song.currentSong
     return (
-        <div className="song">
+        <div className={`song ${props.isLibraryDisplayed ? 'move-right' : ''}`}>
             <h1 className="title">{name}</h1>
             <img src={cover} alt="cover song" className="picture"/>
             <p className="artist">{artist}</p>

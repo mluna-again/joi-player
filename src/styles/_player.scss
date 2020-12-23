@@ -14,10 +14,56 @@
     align-items: center;
     margin: 0 0 2rem 0;
 
+    .track-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50px;
+
+      .thumb {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background-color: crimson;
+        width: 100%;
+        height: 10px;
+        z-index: 10;
+      }
+
+      .thumb-progress {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) translateX(-10%);
+        background-color: #850b25;
+        width: 100%;
+        height: 10px;
+        z-index: 11;
+      }
+    }
+
     input {
       width: 100%;
-      margin: 0 1rem;
-      padding: 1rem 0;
+      z-index: 100;
+
+      -webkit-appearance: none;
+      background-color: transparent;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        background-color: white;
+        height: 16px;
+        width: 16px;
+        border-radius: 100%;
+      }
     }
 
     p {

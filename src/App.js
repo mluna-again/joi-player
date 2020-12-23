@@ -4,8 +4,9 @@ import fetchData from "./data";
 import Library from "./components/Library";
 
 function App() {
+    const [isLibraryDisplayed, setIsLibraryDisplayed] = useState(false)
     const [data] = useState(fetchData())
-    const [currentSong, setCurrentSong] = useState(data[0])
+    const [currentSong, setCurrentSong] = useState(shuffle(data))
     const [index, setIndex] = useState(0)
     const nextSongHandler = () => {
         if (index >= data.length - 1) {
@@ -32,9 +33,16 @@ function App() {
 
 
     return <div className="container">
-        <Library songs={data} setSongHandler={setSongHandler} currentSong={currentSong}/>
-        <Song song={{currentSong, nextSongHandler, prevSongHandler}}/>
+        <Library songs={data} setSongHandler={setSongHandler} currentSong={currentSong}
+                 isLibraryDisplayed={isLibraryDisplayed}
+                 setIsLibraryDisplayed={setIsLibraryDisplayed}/>
+        <Song song={{currentSong, nextSongHandler, prevSongHandler}}
+              isLibraryDisplayed={isLibraryDisplayed}/>
     </div>
 }
 
 export default App;
+
+function shuffle(songs) {
+    return songs[Math.floor(Math.random() * (songs.length))]
+}
