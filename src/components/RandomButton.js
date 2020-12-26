@@ -1,9 +1,9 @@
 import { faRandom } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function RandomButton(props) {
+function RandomButton() {
     return <div>
-        <FontAwesomeIcon {...props} icon={faRandom}/>
+        <FontAwesomeIcon icon={faRandom}/>
     </div>
 }
 

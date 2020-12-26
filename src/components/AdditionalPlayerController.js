@@ -3,8 +3,8 @@ import RandomButton from "./RandomButton";
 
 function AdditionalPlayerController() {
     return <div className="additional-controller">
-        <RepeatButton className="icon"/>
         <RandomButton className="icon"/>
+        <RepeatButton className="icon"/>
     </div>
 }
 
