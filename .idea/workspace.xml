@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="customize Player's time controller">
+    <list default="true" id="ca16586f-9329-4e4e-97a3-125d4b49edb3" name="Default Changelist" comment="little bit of css for mobile :)">
+      <change afterPath="$PROJECT_DIR$/src/components/AdditionalPlayerController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RandomButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RepeatButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/additionalPlayerController.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Song.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_library.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/_player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_player.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_song-in-library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_song-in-library.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_song.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_song.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.nvm/versions/node/v14.15.1/bin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -49,6 +50,18 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="wsl://Debian@/home/mluna94/.nvm/versions/node/v14.15.1/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +96,10 @@
       <workItem from="1608480887507" duration="17017000" />
       <workItem from="1608506605363" duration="7376000" />
       <workItem from="1608669185584" duration="2827000" />
-      <workItem from="1608672584328" duration="14415000" />
+      <workItem from="1608672584328" duration="14616000" />
+      <workItem from="1608692051235" duration="4000" />
+      <workItem from="1608741680844" duration="21000" />
+      <workItem from="1608950768272" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="add playHandler to Song component">
       <created>1608405107185</created>
@@ -197,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608686675109</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="little bit of css for mobile :)">
+      <created>1608690828095</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608690828095</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +255,8 @@
     <MESSAGE value="fix Library and SongInLibrary UI" />
     <MESSAGE value="add SongInLibrary highlight when selected" />
     <MESSAGE value="customize Player's time controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="customize Player's time controller" />
+    <MESSAGE value="little bit of css for mobile :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="little bit of css for mobile :)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

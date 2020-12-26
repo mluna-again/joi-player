@@ -4,6 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  svg {
+    cursor: pointer;
+    color: #e2d7d7;
+    transition: color 0.5s ease;
+  }
+
+  svg:hover {
+    color: crimson;
+  }
 }
 
 *::selection {
@@ -44,3 +54,4 @@ body {
 @import "./song";
 @import "./library";
 @import "./song-in-library";
+@import "./additionalPlayerController";

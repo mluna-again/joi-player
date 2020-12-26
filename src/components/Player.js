@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight, faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
+import AdditionalPlayerController from "./AdditionalPlayerController";
 
 function Player(props) {
     const {song, next: nextSongHandler, prev: prevSongHandler} = props
@@ -47,16 +48,19 @@ function Player(props) {
 
     return <div className="player">
         <div className="time">
-            <p className="start">{convertToTime(startTime)}</p>
-            <div className="track-container">
-                <div className="thumb"/>
-                <div className="thumb-progress"
-                    // the 99 instead of 100 is for a little offset
-                     style={{transform: `translateY(-50%) translateX(${-99 + percentage}%)`}}/>
-                <input max="100" type="range" value={percentage || 0}
-                       onChange={timeChangeHandler}/>
+            <AdditionalPlayerController/>
+            <div className="timeline">
+                <p className="start">{convertToTime(startTime)}</p>
+                <div className="track-container">
+                    <div className="thumb"/>
+                    <div className="thumb-progress"
+                        // the 99 instead of 100 is for a little offset
+                         style={{transform: `translateY(-50%) translateX(${-99 + percentage}%)`}}/>
+                    <input max="100" type="range" value={percentage || 0}
+                           onChange={timeChangeHandler}/>
+                </div>
+                <p className="end">-{convertToTime(endTime)}</p>
             </div>
-            <p className="end">-{convertToTime(endTime)}</p>
         </div>
         <div className="controls">
             <FontAwesomeIcon size="2x" className="previous" icon={faAngleLeft}

@@ -6,7 +6,7 @@ import Library from "./components/Library";
 function App() {
     const [isLibraryDisplayed, setIsLibraryDisplayed] = useState(false)
     const [data] = useState(fetchData())
-    const [currentSong, setCurrentSong] = useState(shuffle(data))
+    const [currentSong, setCurrentSong] = useState(data[0])
     const [isPlaying, setIsPlaying] = useState(false)
     const [index, setIndex] = useState(0)
     const nextSongHandler = () => {
@@ -44,7 +44,3 @@ function App() {
 }
 
 export default App;
-
-function shuffle(songs) {
-    return songs[Math.floor(Math.random() * (songs.length))]
-}
