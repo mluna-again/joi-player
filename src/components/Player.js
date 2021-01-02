@@ -49,7 +49,7 @@ function Player(props) {
 
     return <div className="player">
         <div className="time">
-            <AdditionalPlayerController/>
+            {/*<AdditionalPlayerController/>*/}
             <div className="timeline">
                 <p className="start">{convertToTime(startTime)}</p>
                 <div className="track-container">
