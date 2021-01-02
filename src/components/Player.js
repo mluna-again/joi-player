@@ -42,8 +42,9 @@ function Player(props) {
 
     // autostarts song
     useEffect(() => {
-        audio.current.play()
-        setIsPlaying(true)
+        audio.current.play().then(() => {
+            setIsPlaying(true)
+        })
     }, [song, setIsPlaying])
 
     return <div className="player">
