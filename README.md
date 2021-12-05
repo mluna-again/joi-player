@@ -2,6 +2,11 @@
 
 ## Joi is a tiny music player written in React
 
+## Previews
+![navbar](preview/nav.png)
+![navbar](preview/home.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
